@@ -46,35 +46,55 @@ A clean and structured user-item matrix ready for recommendation modeling.
 
 ---
 
-# ✅ Milestone 2: Basic Recommendation Model
+# Milestone 2: Model Building (AI-Enabled Recommendation Engine)
 
-### Objective
-To build a basic recommendation engine using collaborative filtering.
-
-### Tasks Completed
-- Used user-item matrix from Milestone 1
-- Implemented basic collaborative filtering logic
-- Generated item recommendations for users
-- Tested recommendations on sample users
-- Prepared model output for future enhancements
-
-### Files Created
-- `model2_recommendation.py`
-
-### Output
-A working basic recommendation system that suggests items based on user similarity.
+## Objective
+The objective of Milestone 2 is to develop and train the core recommendation model using the processed data from Milestone 1. This milestone focuses on selecting a recommendation algorithm, training the model, and generating initial recommendations.
 
 ---
 
-## Project Status
-- ✔ Milestone 1 completed
-- ✔ Milestone 2 completed
-- ⏳ Advanced modeling and optimization planned in next milestones
+## Selected Recommendation Model
+**Item-Based Collaborative Filtering**
+
+### Why this model?
+- Simple and effective for beginners
+- Uses user-item interaction data
+- Recommended for initial recommendation systems
+- Matches mentor instruction to compute similarity and train on interaction matrix
 
 ---
 
-## How to Run the Project
-```bash
-pip install pandas numpy scikit-learn
-python model1_data_preparation.py
-python model2_recommendation.py
+## Approach Used
+
+1. Loaded the **user-item interaction matrix** generated in Milestone 1.
+2. Applied **Cosine Similarity** to compute similarity between items.
+3. Created an **item similarity matrix**.
+4. Developed a recommendation function that:
+   - Takes a selected item
+   - Finds similar items
+   - Returns top-N recommended items
+5. Tested the model with sample inputs.
+
+---
+
+## Technologies Used
+- Python
+- Pandas
+- Scikit-learn (Cosine Similarity)
+
+---
+
+## Files Involved
+- `model2_recommendation.py` – Model building and recommendation logic
+- `user_item_matrix.csv` – Interaction matrix from Milestone 1
+
+---
+
+## Sample Output
+
+```text
+User-Item Matrix Loaded Successfully
+Item Similarity Matrix Created
+Selected Item: Apparel
+Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']
+=== Milestone 2 Completed Successfully ===
