@@ -1,26 +1,45 @@
-import numpy as np
+def calculate_metrics(actual_items, recommended_items):
+    """
+    Calculates Precision, Recall and F1-Score
 
-def precision_recall_f1(recommended, relevant):
-    recommended = set(recommended)
-    relevant = set(relevant)
+    actual_items       : list of actual relevant items
+    recommended_items  : list of items recommended by the model
+    """
 
-    tp = len(recommended & relevant)
-    fp = len(recommended - relevant)
-    fn = len(relevant - recommended)
+    actual_set = set(actual_items)
+    recommended_set = set(recommended_items)
 
-    precision = tp / (tp + fp) if tp + fp > 0 else 0
-    recall = tp / (tp + fn) if tp + fn > 0 else 0
-    f1 = (2 * precision * recall / (precision + recall)) if precision + recall > 0 else 0
+    # True Positives
+    true_positive = len(actual_set & recommended_set)
 
-    return precision, recall, f1
+    # Precision
+    if len(recommended_set) == 0:
+        precision = 0
+    else:
+        precision = true_positive / len(recommended_set)
+
+    # Recall
+    if len(actual_set) == 0:
+        recall = 0
+    else:
+        recall = true_positive / len(actual_set)
+
+    # F1 Score
+    if precision + recall == 0:
+        f1_score = 0
+    else:
+        f1_score = 2 * (precision * recall) / (precision + recall)
+
+    return precision, recall, f1_score
 
 
-# Example (demo purpose)
-recommended_items = ["Books", "Electronics", "Home & Kitchen"]
-actual_items = ["Books", "Health & Beauty"]
+# ----------------- TEST / DEMO -----------------
+if __name__ == "__main__":
+    actual_items = ["I1", "I2", "I3"]
+    recommended_items = ["I1", "I3", "I5"]
 
-p, r, f = precision_recall_f1(recommended_items, actual_items)
+    precision, recall, f1 = calculate_metrics(actual_items, recommended_items)
 
-print("Precision:", round(p, 2))
-print("Recall:", round(r, 2))
-print("F1-Score:", round(f, 2))hpo
+    print("Precision:", round(precision, 2))
+    print("Recall   :", round(recall, 2))
+    print("F1-Score :", round(f1, 2))
