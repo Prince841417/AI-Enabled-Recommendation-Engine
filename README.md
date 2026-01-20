@@ -100,38 +100,27 @@ Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']
 === Milestone 2 Completed Successfully ===
 
 
+## Milestone 3: Evaluation and Refinement
 
-Milestone 3: Evaluation and Refinement
-Completion Date
-28 January
-Objective
+**Completion Date:** 28 January
+
+### Objective
 Evaluate the performance of the recommendation model and refine it to improve accuracy.
-Tasks
-Calculated evaluation metrics:
-Precision
-Recall
-F1-Score
-Analyzed recommendation results
-Refined the model based on evaluation outcomes
-Tested different recommendation scenarios
-Evaluation Metrics
-Copy code
 
-Precision: 0.33
-Recall:    0.50
-F1-Score:  0.40
-Outcome
-Model performance validated using standard evaluation metrics
-Recommendation accuracy improved through refinement
-File Used
-Copy code
+### Tasks Performed
+- Calculated evaluation metrics: Precision, Recall, and F1-score
+- Analyzed recommendation results
+- Fine-tuned the model based on evaluation outcomes
+- Tested different recommendation scenarios
 
-model3_evaluation.py
-Execution
-Copy code
-Bash
-python model3_evaluation.py
-If you want, I can also:
-✔ Check mentor alignment
-✔ Improve wording for viva/demo
+### Evaluation Metrics
+- **Precision:** 0.33  
+- **Recall:** 0.50  
+- **F1-Score:** 0.40  
+
+### Outcome
+The model’s performance was successfully evaluated using standard metrics.
+Based on the evaluation results, refinements were applied to improve recommendation quality.
+Different recommendation scenarios were tested to validate model robustness.
+
 ✔ Help you commit & push this to GitHub
