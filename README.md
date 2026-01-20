@@ -89,16 +89,13 @@ The objective of Milestone 2 is to develop and train the core recommendation mod
 - `user_item_matrix.csv` – Interaction matrix from Milestone 1
 
 ---
-
 ## Sample Output
-User-Item Matrix Loaded Successfully
+- User-Item Matrix Loaded Successfully
 Item Similarity Matrix Created
 Selected Item: Apparel
-Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']===
- Milestone 2 Completed Successfully ===
+Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']
+=== Milestone 2 Completed Successfully ===
 ----
-
----
 
 ## Milestone 3: Evaluation and Refinement
 
