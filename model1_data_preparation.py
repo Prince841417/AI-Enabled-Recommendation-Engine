@@ -38,6 +38,7 @@ print(f"Using item column : {item_col}")
 
 # 5. Create interaction data (implicit feedback)
 interactions = df[[user_col, item_col]].copy()
+
 interactions["rating"] = 1
 
 # 6. Remove duplicates
