@@ -91,13 +91,11 @@ The objective of Milestone 2 is to develop and train the core recommendation mod
 ---
 
 ## Sample Output
-
-```text
 User-Item Matrix Loaded Successfully
 Item Similarity Matrix Created
 Selected Item: Apparel
-Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']
-=== Milestone 2 Completed Successfully ===
+Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']===
+ Milestone 2 Completed Successfully ===
 ----
 
 ---
