@@ -24,7 +24,7 @@ The dataset contains user-item interaction data:
 ---
 
 # ✅ Milestone 1: Data Preparation & Preprocessing
-    **Completion Date:** 8 January
+   **Completion Date:** 8 January
 
 
 ### Objective
@@ -49,7 +49,7 @@ A clean and structured user-item matrix ready for recommendation modeling.
 ---
 
 # Milestone 2: Model Building (AI-Enabled Recommendation Engine)
-
+**Completion Date:** 18 January
 ## Objective
 The objective of Milestone 2 is to develop and train the core recommendation model using the processed data from Milestone 1. This milestone focuses on selecting a recommendation algorithm, training the model, and generating initial recommendations.
 
