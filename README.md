@@ -98,7 +98,9 @@ Item Similarity Matrix Created
 Selected Item: Apparel
 Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']
 === Milestone 2 Completed Successfully ===
+----
 
+---
 
 ## Milestone 3: Evaluation and Refinement
 
@@ -114,13 +116,11 @@ Evaluate the performance of the recommendation model and refine it to improve ac
 - Tested different recommendation scenarios
 
 ### Evaluation Metrics
-- **Precision:** 0.33  
-- **Recall:** 0.50  
-- **F1-Score:** 0.40  
+- **Precision:** 0.33
+- **Recall:** 0.50
+- **F1-Score:** 0.40
 
 ### Outcome
-The model’s performance was successfully evaluated using standard metrics.
-Based on the evaluation results, refinements were applied to improve recommendation quality.
-Different recommendation scenarios were tested to validate model robustness.
-
-✔ Help you commit & push this to GitHub
+The model performance was validated using standard evaluation metrics.
+Based on the results, the recommendation algorithm was refined to improve accuracy.
+Multiple recommendation scenarios were tested to ensure robustness.
