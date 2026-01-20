@@ -24,6 +24,8 @@ The dataset contains user-item interaction data:
 ---
 
 # ✅ Milestone 1: Data Preparation & Preprocessing
+    **Completion Date:** 8 January
+
 
 ### Objective
 To prepare clean and structured data for building a recommendation system.
