@@ -98,3 +98,36 @@ Item Similarity Matrix Created
 Selected Item: Apparel
 Recommended Items: ['Books', 'Electronics', 'Health & Beauty', 'Home & Kitchen']
 === Milestone 2 Completed Successfully ===
+
+Milestone 3: Evaluation and Refinement
+Objective
+Evaluate the performance of the recommendation model and refine it to improve accuracy.
+Tasks
+Calculated evaluation metrics:
+Precision
+Recall
+F1-Score
+Analyzed recommendation results
+Refined the model based on evaluation outcomes
+Tested different recommendation scenarios
+Evaluation Metrics
+Copy code
+
+Precision: 0.33
+Recall:    0.50
+F1-Score:  0.40
+Outcome
+Model performance validated using standard evaluation metrics
+Recommendation accuracy improved through refinement
+File Used
+Copy code
+
+model3_evaluation.py
+Execution
+Copy code
+Bash
+python model3_evaluation.py
+If you want, I can also:
+✔ Check mentor alignment
+✔ Improve wording for viva/demo
+✔ Help you commit & push this to GitHub
